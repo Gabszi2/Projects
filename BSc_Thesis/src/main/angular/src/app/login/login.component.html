@@ -1,0 +1,18 @@
+<h3 class="text-center" style="margin-bottom:30px">Log in</h3>
+
+<div class="row justify-content-center text-center h-100">
+
+  <form [formGroup]="loginForm" class="col-md-auto text-center my-auto">
+    <label for="email" style=" margin-top:20px">Email address:</label>
+    <input class="form-control" formControlName="email" id="email" type="email">
+
+    <label for="password" style=" margin-top:20px">Password:</label>
+    <input class="form-control" formControlName="password" id="password" type="password">
+
+
+    <button (click)="login()" [disabled]="loginForm.invalid" class="btn btn-sm btn-success" style=" margin-top:20px">Submit</button>
+
+    <button class="btn btn-md btn-light" routerLink="/register" style="display: block; margin-top:100px">Don't have an account? Sign up!</button>
+  </form>
+</div>
+

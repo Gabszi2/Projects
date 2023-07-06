@@ -1,0 +1,14 @@
+<p class="text-center">Modify question</p>
+<div
+  class="border d-flex align-items-center justify-content-center"
+  style="height: 350px;"
+>
+  <div>
+    <form [formGroup]="questionForm">
+      <p>Old question: {{oldQuestion}}</p>
+      <label for="question" style=" margin-top:20px">Type in the modified question:</label>
+      <input class="form-control" formControlName="question" id="question" type="text">
+      <button (click)="questionModify()" [disabled]="questionForm.invalid" class="btn btn-primary btn-md" style=" margin-top:20px">Modify</button>
+    </form>
+  </div>
+</div>

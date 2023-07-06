@@ -1,0 +1,162 @@
+{
+  "answers": [
+    {
+      "answer": [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false
+      ],
+      "foodName": "Curry"
+    },
+    {
+      "answer": [
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "foodName": "Sushi"
+    },
+    {
+      "answer": [
+        false,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false
+      ],
+      "foodName": "Yakisoba"
+    },
+    {
+      "answer": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true
+      ],
+      "foodName": "sesame chicken"
+    },
+    {
+      "answer": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "foodName": "Gyoza",
+      "restaurants": [
+        "aaaa",
+        "dddd"
+      ]
+    },
+    {
+      "answer": [
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "foodName": "Shrimp bites"
+    },
+    {
+      "answer": [
+        true,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      "foodName": "PHO"
+    },
+    {
+      "answer": [
+        false,
+        false,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "foodName": "Spring/summer rolls"
+    },
+    {
+      "answer": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false
+      ],
+      "foodName": "pork/chicken with mushroom and bamboo"
+    },
+    {
+      "answer": [
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        true,
+        false,
+        false
+      ],
+      "foodName": "seafood soup"
+    },
+    {
+      "answer": [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        true
+      ],
+      "foodName": "Sechuan chicken"
+    }
+  ]
+}

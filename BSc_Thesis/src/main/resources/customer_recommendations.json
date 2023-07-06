@@ -1,0 +1,22 @@
+{
+  "recommendations": [
+    {
+      "approved": false,
+      "city": "",
+      "restaurant": "",
+      "id": 519771,
+      "type": "question",
+      "cuisine": "fffffff",
+      "message": "ad"
+    },
+    {
+      "id": 911237,
+      "type": "restaurant",
+      "cuisine": "ads",
+      "city": "Tiszaújváros",
+      "restaurant": "ff",
+      "message": "dddd",
+      "approved": false
+    }
+  ]
+}

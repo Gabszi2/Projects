@@ -1,0 +1,21 @@
+<p class="text-center">Admin for foods</p>
+<div
+  class="border d-flex align-items-center justify-content-center"
+  style="height: 350px;"
+>
+  <div>
+    <form [formGroup]="chooseForm">
+      <label for="town" >Select a town</label>
+      <select (change)="onChange($event)" class="form-control" formControlName="town" id="town">
+        <option *ngFor="let city of cityAll; let i=index"
+                value="{{i}}">{{city.name.charAt(0).toUpperCase() + city.name.slice(1)}}</option>
+      </select>
+      <label for="cuisine" style=" margin-top:20px">Select a cuisine</label>
+      <select class="form-control" formControlName="cuisine" id="cuisine">
+        <option *ngFor="let cuisine of cuisines"
+                value="{{cuisine}}">{{cuisine.charAt(0).toUpperCase() + cuisine.slice(1)}}</option>
+      </select>
+      <button (click)="choice()" [disabled]="chooseForm.invalid" class="btn btn-primary btn-md" style=" margin-top:20px">Select</button>
+    </form>
+  </div>
+</div>

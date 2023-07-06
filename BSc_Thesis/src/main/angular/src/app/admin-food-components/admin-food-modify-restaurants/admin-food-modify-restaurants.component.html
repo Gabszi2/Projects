@@ -1,0 +1,21 @@
+<p class="text-center ">Modify Food restaurants {{foodName}}</p>
+<div class="row justify-content-center text-center h-100">
+  <div class="col-sm-auto text-center my-auto">
+    <button (click)="addRestaurant()" class="btn-warning btn btn-md">Add restaurant</button>
+    <form [formGroup]="restaurantsForm">
+      <div formArrayName="restaurants">
+        <div *ngFor="let restaurant of restaurants.controls;let i=index">
+          <div [formGroupName]="i">
+            <input class="form-control" formControlName="restaurant" type="text" style=" margin-top:20px">
+
+          </div>
+          <div class="text-end">
+            <button (click)="delete(i)" class="btn btn-danger btn-sm ">Delete</button>
+          </div>
+        </div>
+      </div>
+      <button (click)="done()" [disabled]="restaurantsForm.invalid" class="btn btn-sm btn-success">Submit</button>
+    </form>
+  </div>
+</div>
+

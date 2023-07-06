@@ -1,0 +1,13 @@
+<p class="text-center">Question add to {{cuisine.charAt(0).toUpperCase() + cuisine.slice(1)}}</p>
+<div
+  class="border d-flex align-items-center justify-content-center"
+  style="height: 350px;"
+>
+  <div>
+    <form [formGroup]="questionForm">
+      <label for="question">Type in the question:</label>
+      <input class="form-control" formControlName="question" id="question" type="text">
+      <button (click)="questionAdd()" [disabled]="questionForm.invalid" class="btn btn-primary btn-md" style=" margin-top:20px">Add</button>
+    </form>
+  </div>
+</div>
